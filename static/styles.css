@@ -19,18 +19,18 @@ h1{
 }
 
 .main-div{
-	 width:290px;
+	 width:300px;
 	 margin:0 auto;
 	 background:#3F475B;
-	 height:310px;
+	 height:325px;
 	 box-shadow:2px 2px 2px gray;
-	 padding:15px;
+	 padding:20px;
 	 border-bottom:5px solid #ED586C;
      border-radius:4px;	
-position:relative;	 
+	 position:relative;	 
 }
 
-.screen-div,.number-div{
+.screen,.calculator-keys{
 	  padding:0;
 	  margin:0;
 }
@@ -38,12 +38,13 @@ position:relative;
 .screen{
 	list-style:none;
 	color:white;
-	height:45px;
+	height:50px;
 	width:58px;
   margin-left:8px;
 	border-radius:4px;
 	border-top:4px solid #828A9B;
 	text-align:center;
+	font-size: 35px;
 	font-weight:bold;
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom:8px;
@@ -53,9 +54,9 @@ position:relative;
   overflow:hidden;
 }
 
-.clear{
+.clear-all{
     width:60px;
-	background:#7B8D8E;
+	background:#83f1f7;
 	padding:10px 17px;
 	position:absolute;
 	border-radius:3px;
@@ -65,17 +66,15 @@ position:relative;
 	cursor:pointer;
 	text-align:center;
 }
-.screen{
-	
-}
 
 
-.number-div li{
+
+.calculator-keys button{
 	list-style:none;
 	float:left;
     width:52px;
     background:white;
-	margin:9px 5px;
+	margin:9px 6px;
 	padding:10px;
 	border-bottom:4px solid #828A9B;
 	border-radius:5px;
@@ -85,7 +84,7 @@ position:relative;
 	cursor:pointer;
 }
 
-.number-div li:hover{
+.calculator-keys button:hover{
 	background: #44B3C2;
 	border-bottom: 4px solid #336699;
 	color: white;
@@ -101,3 +100,10 @@ position:relative;
 	border-bottom: 4px solid #B3232E;
 	color: white;
 }
+
+#clear:hover{
+	background-color: transparent;
+}
+
+
+
